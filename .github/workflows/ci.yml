@@ -28,5 +28,4 @@ jobs:
         run: python -m py_compile app.py
 
       - name: Verify Flask installation
-        run: python -c "import flask; print('Flask installed successfully')"o
-
+        run: python -c "import flask; print('Flask installed successfully')"
