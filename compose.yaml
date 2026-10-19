@@ -1,0 +1,10 @@
+services:
+  web:
+    build: .
+    container_name: flask-compose
+    ports:
+      - "8080:5000"
+    environment:
+      APP_ENV: devlopment
+
+
